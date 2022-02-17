@@ -7,17 +7,101 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=McLaren&family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
   <header>
-    <h2><a href="">Mountain Travel</a></h2>
+    <h2><a href="">Mountain Travels</a></h2>
     <nav>
-      <li><a href="">Tours</a></li>
+      <li><a href="#main-gallery">Homes</a></li>
       <li><a href="">About</a></li>
       <li><a href="">Contact</a></li>
     </nav>
   </header>
+  <!-- background image and title text -->
+  <section class="hero">
+    <div class="background-image" style="background-image: url(assets/img/main.jpeg);"></div>
+    <div class="hero-content-area">
+      <h1>Mountain Travels</h1>
+      <h3>Unmissable Adventure Tours Around the World</h3>
+        <a href="#main-gallery" class="btn">Gallery</a>
+        <a href="#" class="btn">Reservations</a>
+        <a href="#" class="btn">Pricing</a>
+    </div>
+  </section>
+
+  <section class="destinations" id="main-gallery">
+    <h3 class="title">Some of our destinations:</h3>
+    <p>Tired of the ocean? We plan to curate the best mountain adventures.</p> 
+    <br>
+    <p>Here are some of the pictures who have had amazing experiences with us!</p>
+    <hr>
+    <ul class="grid">
+      <li class="small" style="background-image: url(assets/img/mountain1.jpeg);"></li>
+      <li class="large" style="background-image: url(assets/img/mountain4.jpeg);"></li>
+      <li class="large" style="background-image: url(assets/img/mountain3.jpeg);"></li>
+      <li class="small" style="background-image: url(assets/img/mountain2.jpeg);"></li>
+    </ul>
+  </section>
+
+  <section class="packages">
+    <h3 class="title">Tour Packages</h3>
+    <p>We offer a variety of tiny home vacation packages. Whether you are exploring CA, or Colorado we have just the right house for you for all seasons.</p>
+    <hr>
+    <ul class="grid">
+      <li >
+        <i class="fa fa-compass fa-3x"></i>
+        <h4>Find Homes</h4>
+        <p>Visit the great outdoors of South Lake Tahoe, CA in a tiny home or any of our other locations</p>
+      </li>
+      <li >
+        <i class="fa fa-camera-retro fa-3x"></i>
+        <h4>All House Styles</h4>
+        <p>View our gallery of all the houses in our portfolio.</p>
+      </li>
+      <li >
+        <i class="fa fa-bicycle fa-3x"></i>
+        <h4>Group Trips Meetups</h4>
+        <p>View events where you can go on a bicycle tour!</p>
+      </li>
+      <li >
+        <i class="fa fa-flag-checkered fa-3x"></i>
+        <h4>Racing Trips</h4>
+        <p>Trips for Racing</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="testimonials">
+    <h3 class="title">Testimonials from our adventurers:</h3>
+    <hr>
+    <p class="quote">"Wow! This tour mad me realize how much I love mountains..!"</p>
+    <p class="author">- James Vongampai</p>
+    <p class="quote">"I loved the ammenities in all of the homes and how close I felt to nature."</p>
+    <p class="author">- Nat Jantira</p>
+    <p class="quote">"I like how all of the homes had great visibility of my surroundings. Overall great trip with amazing views"</p>
+    <p class="author">- Jonas Levi</p>
+  </section>
+
+  <section class="contact">
+    <h3 class="title">Learn more</h3>
+    <p>Want to learn more about the upcoming homes? We would love to have you join our mailing list to get the latest news for homes for your next vacation stay. We offer potential deals and have contests and giveaways. We can even provide you with a lender if you want to purchase a home in our real estate portfolio.</p>
+    <hr>
+    <form action="">
+      <input type="email" name="" id="" placeholder="Johnnieapple@seed.com">
+      <a href="#" class="btn" >Subscribe</a>
+    </form>
+  </section>
+  <footer>
+    <p>Images courtesy of <a href="http://unsplash.com"></a></p>
+    <p>Footer page and is a template created for business</p>
+    <ul>
+      <li><a href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
+      <li><a href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
+      <li><a href=""><i class="fa fa-snapchat-square fa-2x"></i></a></li>
+    </ul>
+  </footer>
 </body>
 </html>

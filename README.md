@@ -17,11 +17,13 @@
 
   # @keyframes animation
   #### Creating a fadein animation using keyframes and animation CSS property
-  ```
+```
   animation: 1s fadein 0.5s forwards;
   /* 2. set the initial opacity */
   opacity: 0;
 }
+```
+```
 /* 3. set the keyframes based on animation */
 @keyframes fadein {
   100% {
