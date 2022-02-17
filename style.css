@@ -71,7 +71,7 @@ header {
     opacity: 1;
   }
 }
-
+/* Header styles */
 header {
   z-index: 1;
   position: fixed; /* Set the navbar to fixed position */
@@ -99,6 +99,18 @@ header nav {
 
 header nav li {
   margin: 0 15px;
+}
+
+@media (max-width: 800px) {
+  /* Mobile responsiveness while the max-width is within 800px range */
+  header {
+    padding: 20px 50px;
+    flex-direction: column;
+  }
+
+  header h2 {
+    margin-bottom: 0;
+  }
 }
 
 /* Hero Styles */
